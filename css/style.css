@@ -1,0 +1,110 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url('https://c.wallhere.com/photos/bc/1f/1920x1080_px_Arnold_Schwarzenegger_Hope_Posters_quote_Terminator_Typography-689164.jpg!d');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+    width: 350px;
+}
+
+#input-container {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #e64a4a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+button:hover {
+    background-color: #f81818;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+}
+
+.player-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.player {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.name {
+    font-weight: bold;
+    color: #ee8181;
+    margin-bottom: 10px;
+}
+
+.circle {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 10px;
+}
+
+.number {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#user-number {
+    background-image: url('https://wallpaper.forfun.com/fetch/bc/bc15c4cfd6d7e872b4b38025bd2a3dc2.jpeg');
+}
+
+#computer-number {
+    background-image: url('https://images4.alphacoders.com/196/196996.jpg');
+}
+
+.score {
+    font-weight: bold;
+    background-color: #ff5507;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.vs {
+    font-size: 24px;
+    font-weight: bold;
+    color: #dc3545;
+}
+
+#result {
+    font-size: 18px;
+    margin-top: 20px;
+    color: #004a55;
+}
